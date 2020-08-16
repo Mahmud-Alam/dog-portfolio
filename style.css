@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+.top-banner{
+    height: 500px;
+    background-image: url('img/Untitled-5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-banner h1{
+    font-size: 50px;
+    color: rgb(255, 187, 0);
+}
+.top-banner p{
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+}
+.top-banner .top-text{
+    padding-top:50px ;
+}
+.top-banner ul li{
+    float: left;
+    margin: 0 50px 20px -20px;
+    color: white;
+}
+.half-length{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-length img{
+    width: 100%;
+}
