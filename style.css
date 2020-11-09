@@ -315,10 +315,11 @@ body{
     }
     .middle-banner ul li{
         float: left;
-        margin: 0 70px 20px -20px;
+        margin: 25px 70px 20px -20px;
         color: black;
     }
     .middle-banner p{
+        margin: 40px 0 20px 0;
         color: black;
     }
     .middle-banner .box{
