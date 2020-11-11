@@ -167,8 +167,8 @@ body{
         top: 0;
         width: 100%;
         height: 60px;
-        border-bottom: 2px solid crimson;
         box-shadow: 0 2px 4px -1px rgba(0,0,0,.2);
+        z-index: 999;
       }
       .navbar .navbar-img{
           width: 45.8%;
@@ -176,7 +176,10 @@ body{
           padding: 5px 0 5px 80px;
       }
       .navbar-img img{
-          width: 10%;
+          width: 11%;
+      }
+      .navbar-img img:hover{
+          cursor: pointer;
       }
       
       .navbar a {
