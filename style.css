@@ -355,7 +355,11 @@ body{
         color: rgb(255, 166, 0);
     }
     .footer{
-        height: 300px;
+        height: 425px;
+        background-image: url(img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     .footer-container{
         width: 80%;
@@ -364,18 +368,18 @@ body{
         margin: 0 auto;
     }
     .footer-container h3{
-        color: rgb(77, 77, 77);
+        color: rgb(66, 66, 66);
     }
     .footer-text{
         width: 20%;
         text-align: justify;
         margin-left: 50px;
-        padding: 50px 0 0 10px;
+        padding: 80px 0 0 10px;
     }
     .footer-text p{
         font-size: 14px;
         line-height: 20px;
-        color: rgb(107, 107, 107);
+        color: rgb(80, 80, 80);
     }
     .footer-text ul{
         list-style: none;
@@ -384,7 +388,7 @@ body{
     .footer-text ul li{
         padding-bottom: 10px;
         font-size: 14px;
-        color: rgb(107, 107, 107);
+        color: rgb(80, 80, 80);
     }
     .footer-text ul li:hover{
         color: crimson;
@@ -393,10 +397,10 @@ body{
     .footer-post{
         width: 25%;
         margin-left: 50px;
-        padding: 50px 0 0 10px;
+        padding: 80px 0 0 10px;
     }
-    .footer-post h4{
-        color:rgb(107, 107, 107);
+    .footer-post h5{
+        color: rgb(80, 80, 80);
         padding: 0;
         margin: 0;
     }
@@ -437,5 +441,8 @@ body{
     .footer-button:hover{
         cursor: pointer;
     }
-
+    .footer .footer-copyright{
+        text-align: center;
+        color: rgb(100, 100, 100);
+    }
 }
