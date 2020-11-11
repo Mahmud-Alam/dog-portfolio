@@ -171,7 +171,7 @@ body{
         z-index: 999;
       }
       .navbar .navbar-img{
-          width: 45.8%;
+          width: 44.92%;
           float: left;
           padding: 5px 0 5px 80px;
       }
@@ -306,11 +306,12 @@ body{
     .middle-banner ul li{
         float: left;
         margin: 25px 70px 20px -20px;
-        color: black;
+        color: rgb(50,50,50);
+        font-weight: bold;
     }
     .middle-banner p{
         margin: 40px 0 20px 0;
-        color: black;
+        color: rgb(50,50,50);
     }
     .middle-banner .box{
         color: black;
