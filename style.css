@@ -151,7 +151,6 @@ body{
 }
 .footer{
     height: 300px;
-    background: rgb(255, 166, 0);
 }
 .footer-container{
     width: 80%;
@@ -163,14 +162,12 @@ body{
     width: 22%;
     margin-left: 10px;
     padding-left: 10px;
-    border: 1px solid gray ;
 }
 .footer-post{
     width: 30%;
     text-align: center;
     margin-left: 10px;
     padding-left: 10px;
-    border: 1px solid gray ;
 }
 
 @media only screen and (min-width:1000px){
@@ -181,7 +178,8 @@ body{
         top: 0;
         width: 100%;
         height: 60px;
-        border-bottom: 2px solid rgb(240, 240, 240);
+        border-bottom: 2px solid crimson;
+        box-shadow: 0 2px 4px -1px rgba(0,0,0,.2);
       }
       .navbar .navbar-img{
           width: 45.8%;
@@ -369,7 +367,6 @@ body{
     }
     .footer{
         height: 300px;
-        background: rgb(255, 166, 0);
     }
     .footer-container{
         width: 80%;
@@ -377,18 +374,44 @@ body{
         flex-direction: row;
         margin: 0 auto;
     }
+    .footer-container h3{
+        color: rgb(77, 77, 77);
+    }
     .footer-text{
-        width: 22%;
-        margin-left: 10px;
-        padding-left: 10px;
-        border: 1px solid gray ;
+        width: 20%;
+        text-align: justify;
+        margin-left: 50px;
+        padding: 50px 0 0 10px;
+    }
+    .footer-text p{
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(107, 107, 107);
+    }
+    .footer-text ul{
+        list-style: none;
+        padding: 0 0 0 10px;
+    }
+    .footer-text ul li{
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: rgb(107, 107, 107);
+    }
+    .footer-text ul li:hover{
+        color: crimson;
+        cursor: pointer;
     }
     .footer-post{
-        width: 30%;
+        width: 25%;
         text-align: center;
         margin-left: 10px;
-        padding-left: 10px;
-        border: 1px solid gray ;
+        padding: 50px 0 0 10px;
+    }
+    .footer-img-div{
+        width: 40%;
+    }
+    .footer-img-div img{
+        width: 100%;
     }
 
 }
