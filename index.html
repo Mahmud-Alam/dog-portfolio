@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="navbar">
+        <div class="navbar-img">
+            <img src="img/dogpedia-logo-3d.png" alt="">
+        </div>
+        <a href="#">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact">About us</a>
+        <a style="font-size: 25px;" href="">≡</a>
+    </div>
     <section class="top-banner">
             <div class="half-length top-text">
                 <h1><span>Go</span>lden Retriever</h1>
@@ -15,7 +25,7 @@
                     <li>Dog Breeds</li>
                     <li>Guide Dog</li>
                     <li>Good Pet</li>
-                </ul><br><br>
+                </ul>
                 <p>The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties. The name "retriever" refers to the breed's ability to retrieve shot game undamaged due to their soft mouth. Golden retrievers have an instinctive love of water, and are easy to train to basic or advanced obedience standards.</p>
                 <a class="info-button" href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank"><div class="box">More Info</div></a>
             </div>
@@ -38,7 +48,7 @@
             <a class="info-button" href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank"><div class="box">More Info</div></a>
         </div>
     </section>
-    <section class="full-last-banner">
+    <section id="gallery" class="full-last-banner">
         <h1 class="photo-gallery-text">&#8212; Photo Gallery &#8212;</h1>
         <div class="last-banner">
             <div class="one-third-width">
@@ -68,20 +78,42 @@
             </div>
         </div>
     </section>
-    <section class="footer">
+    <section id="contact" class="footer">
         <div class="footer-container">
-            <div class="footer-text">
-                <h1>About us</h1>
+            <div class="footer-img-div">
+                <img src="img/dog-with-girl.png" alt="">
             </div>
             <div class="footer-text">
-                <h1>Customer service</h1>
+                <h3>About us</h3>
+                <p>
+                    Your dog is your best friend but there's a lot you might not know about your dog. A Dog Can Change the Way You See the World. It's what we believe and it’s the message behind all of our dogs. We know how great you feel when you’re with your dog.
+
+                </p>
             </div>
             <div class="footer-text">
-                <h1>F&Q</h1>
+                <h3>Customer service</h3>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Address</li>
+                    <li>Latest Updates</li>
+                    <li>Have any questions?</li>
+                </ul>
             </div>
             <div class="footer-post">
-                <h1>Send us email</h1>
+                <h3>Send us email</h3>
+                <form>
+                    <h5>Email:</h5>
+                    <input class="email-box" type="text" name="mail">
+                    <h5>Comment:</h5>
+                    <input class="comment-box" type="text" name="comment" size="50">
+                    <input class="footer-button" type="submit" value="Send">
+                    <input class="footer-button" type="reset" value="Reset">
+                    </form>
             </div>
+        </div>
+        <div class="footer-copyright">
+            <small>© Copyright 2020 - Mahmud Alam Badhan. All rights reserved.</small>
         </div>
     </section>
 </body>
